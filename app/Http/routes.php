@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('kebersihan', 'C_kebersihan@index');
+Route::get('kebersihan/{nama}', 'C_kebersihan@profile');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
