@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('kebersihan', 'C_kebersihan@index');
 Route::get('kebersihan/{nama}', 'C_kebersihan@profile');
 Route::resource('mahasiswa', 'C_mahasiswa');
+Route::resource('barang', 'InventarisBrgController');
 
 /*
 |--------------------------------------------------------------------------
