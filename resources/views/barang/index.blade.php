@@ -4,7 +4,7 @@
 
 <h1>Daftar Barang</h1>
 
-<p>{{ link_to_route('barang.create', 'Tambahkan Barang', array('class' => 'btn btn-primary')) }}</p>
+<p>{{ link_to_route('barang.create', 'Tambahkan Barang', null, array('class' => 'btn btn-primary')) }}</p>
 
 @if ($barangs->count())
     <table class="table table-striped table-bordered">
@@ -13,6 +13,7 @@
                 <th>ID.</th>
                 <th>Nama Barang</th>
                 <th>Lokasi</th>
+                <th colspan="2" align="center">Action</th>
             </tr>
         </thead>
 
