@@ -1,4 +1,4 @@
-@extends('layouts.mahasiswa')
+@extends('layouts.default')
 
 @section('main')
 
